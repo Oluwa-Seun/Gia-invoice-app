@@ -14,7 +14,7 @@
       <h2>Sorry, this app is not yet supported on Mobile Devices</h2>
       <p>To use this app, please use a computer or Tablet</p>
     </div>
-  </div>
+  </div> 
 </template>
 
 <script>
@@ -43,7 +43,7 @@ export default {
     //Todo Screen size fix
     checkScreen() {
       const windowWidth = window.innerWidth;
-      if (windowWidth <= 300) {
+      if (windowWidth <= 650) {
         this.mobile = true;
         return;
       }
